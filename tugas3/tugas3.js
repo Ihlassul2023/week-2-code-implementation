@@ -7,6 +7,6 @@ const divideAndSort = (num) => {
       .sort((a, b) => a - b)
       .join("");
   });
-  console.log(result);
+  console.log(parseInt(result));
 };
 divideAndSort(5956560159466056);
